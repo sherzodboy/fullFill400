@@ -2192,3 +2192,12 @@ body {
     top: 340px;
   }
 }
+
+@media (min-width: 1481px) {
+  .contacts {
+    margin-top: 30px;
+  }
+  .contacts_right {
+    margin-left: 100px;
+  }
+}
