@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="contacts.css">
+  <link rel="shortcut icon" href="images/image 1 (1).png">
+  <link href='https://fonts.googleapis.com/css?family=Heebo' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>FulFil Project</title>
+</head>
+<body>
+
+  <header class="header">
+    <nav class="nav">
+      <a href="index.html">
+        <img class="logo" alt="logo" src="images/image 1 (1).png">
+      </a>
+      <i id="three" class="fa-solid fa-bars"></i>
+      <ul id="nav_ul">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="contacts.html">Contact us</a></li>
+      </ul>
+      <div class="header_nav_right">
+        <img class="header_nav_right_img" alt="fi-rr-globe-alt" src="images/fi-rr-globe-alt.png">
+        <span class="rus">Ru</span>
+        <img class="vector" alt="vector1" src="images/Vector (1).png">
+        <div class="lang">
+          <p>Uz</p>
+          <p>Eng</p>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="contact">
+    <h2>Contact us </h2>
+    <div class="contact_div">
+      <div class="contact_div_left">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever </p>
+        <img class="contact_div_left_img" src="images/bbb.jpg" />
+        <div class="contact_div_left_bottom">
+          <p>Biz ijtimoiy tarmoqlarda</p>
+          <div class="contact_div_left_bottom_icons">
+            <img src="images/Vector (14).png" />
+            <img src="images/Vector (15).png" />
+            <img src="images/Vector (16).png" />
+            <img src="images/Vector (16).png" />
+          </div>
+        </div>
+      </div>
+      <div class="contact_div_right">
+        <form class="contacts_right">
+          <label class="label_name">Ismingizni kiriting</label>
+          <br>
+          <input class="input_name" type="text" placeholder="Ism va familiya" required>
+          <br>
+          <label class="label_num">Telefon raqami</label>
+          <br>
+          <input class="input_num" type="number" placeholder="+998" required>
+          <br>
+          <label class="label_mail">Mail</label>
+          <br>
+          <input class="input_mail" type="email" placeholder="Elektron pochtani kiriting" required>
+          <button type="button" onclick="sendBtn2()" class="contacts_right_btn contacts_right_btn_contact">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="relative_div">
+    <img class="img_bottom" src="images/Rectangle 15 (1).png" />
+    <img class="img_bottom_2" src="images/Vector (17).png" />
+    <img class="img_bottom_3" src="images/image 1 (3).png" />
+  </div>
+
+  
+  <div class="sendView">
+    <img src="images/Vector (18).png" />
+    <h2>Successfully sent!</h2>
+    <p>Operators will contact you shortly!</p>
+    <button onclick="okayBtn2()" class="okayBtn">Okay</button>
+  </div>
+  <div class="blur"></div>
+
+  <footer class="footer contacts_footer">
+    <div></div>
+    <div class="footer-text">All rights reserved enviro chemicals </div>
+    <div class="footer_right">
+      <p class="footer-text">Biz ijtimoiy tarmoqlarda</p>
+      <div>
+        <img class="footer_icons" src="images/Vector (14).png" />
+        <img class="footer_icons" src="images/Vector (15).png" />
+        <img class="footer_icons" src="images/Vector (16).png" />
+        <img class="footer_icons" src="images/Vector (16).png" />
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
