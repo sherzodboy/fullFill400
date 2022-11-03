@@ -38,9 +38,6 @@ sendBtn.addEventListener("click", function () {
   ) {
     sendView.classList.add("block");
     blur.classList.add("block");
-
-    sendBtn2();
-    okayBtn2();
   } else if (
     input_name.value.trim() !== "" ||
     input_num.value !== "" ||
@@ -49,6 +46,8 @@ sendBtn.addEventListener("click", function () {
     alert("Fill all inputs completely");
   }
 });
+sendBtn2();
+okayBtn2();
 
 okayBtn.addEventListener("click", () => {
   sendView.classList.remove("block");
