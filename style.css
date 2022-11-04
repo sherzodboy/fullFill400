@@ -556,6 +556,14 @@ body {
   box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.04);
   border-radius: 12px;
   padding-bottom: 20px;
+  transition: all 0.2s linear;
+}
+
+.products_div_32:hover {
+  background-color: #000;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
 }
 
 .products_div_32_a {
@@ -571,6 +579,12 @@ body {
   font-size: 16px;
   text-align: center;
   color: #0696AC;
+  transition: all 0.2s linear;
+}
+
+.products_div_32_a span:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 .products_div_32 .text32  {
@@ -1304,6 +1318,12 @@ body {
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.contacts_right_btn:hover {
+  background: #000;
+  color: #fff;
 }
 
 @media (max-width: 1340px) {
